@@ -1,0 +1,16 @@
+{
+  "name": "@dipcoinlab/perp-ts-library",
+  "version": "0.0.31",
+  "description": "Perpetual exchange library for DipCoin protocol on Sui",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "node scripts/setup.js",
+    "postinstall": "node scripts/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipcoinlabl/perp-library.git"
+  },
+  "license": "Apache-2.0"
+}
